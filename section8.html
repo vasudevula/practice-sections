@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+// 1 Object values
+let student = {
+  name: "Ram",
+  age: 22,
+  department: "CSE"
+};
+
+for (let key in student) {
+  console.log(student[key]);
+}
+
+
+// 2 Object keys
+for (let key in student) {
+  console.log(key);
+}
+
+
+// 3 Key and value together
+for (let key in student) {
+  console.log(key + ": " + student[key]);
+}
+
+</script>
+
+</body>
+</html>
