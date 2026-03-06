@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+// 1 Print each character
+let text = "javascript";
+
+for (let char of text) {
+  console.log(char);
+}
+
+
+// 2 Print fruits
+let fruits = ["apple", "banana", "orange"];
+
+for (let fruit of fruits) {
+  console.log(fruit);
+}
+
+
+// 3 Count characters
+let str = "hello";
+let count = 0;
+
+for (let ch of str) {
+  count++;
+}
+
+console.log("Character count:", count);
+
+
+// 4 Print vowels
+let word = "javascript";
+
+for (let ch of word) {
+  if ("aeiou".includes(ch)) {
+    console.log(ch);
+  }
+}
+
+
+// 5 Sum of array numbers
+let numbers = [10, 20, 30];
+let sum = 0;
+
+for (let num of numbers) {
+  sum += num;
+}
+
+console.log("Sum:", sum);
+
+</script>
+
+</body>
+</html>
